@@ -9,24 +9,24 @@ import Rounded from '../../common/RoundedButton';
 
 const projects = [
   {
-    title: "C2 Montreal",
-    src: "c2montreal.png",
+    title: "Ep1. Ryomen Sukuna",
+    src: "Episode_1_Title_Card.webp",
     color: "#000000"
   },
   {
-    title: "Office Studio",
-    src: "officestudio.png",
-    color: "#8C8C8C"
+    title: "Ep2. For Myself",
+    src: "Episode_2_Title_Card.webp",
+    color: "#88ABD9"
   },
   {
-    title: "Locomotive",
-    src: "locomotive.png",
-    color: "#EFE8D3"
+    title: "Ep3. Girl of Steel",
+    src: "Episode_3_Title_Card.webp",
+    color: "#0F4C81"
   },
   {
-    title: "Silencio",
-    src: "silencio.png",
-    color: "#706D63"
+    title: "Ep4. Fearsome Womb",
+    src: "Episode_4_Title_Card.webp",
+    color: "#36454F"
   }
 ]
 

@@ -24,7 +24,7 @@ export default function index() {
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/images/background.jpg`}
+                            src={`/images/sukuna.webp`}
                             />
                         </div>
                         <h2>Let&apos;s work</h2>
@@ -41,35 +41,35 @@ export default function index() {
                 </div>
                 <div className={styles.nav}>
                         <Rounded>
-                            <p>info@dennissnellenberg.com</p>
+                            <p>jivturdev@gmail.com</p>
                         </Rounded>
                         <Rounded>
-                            <p>+31 6 27 84 74 30</p>
+                            <p>+1 (510) 894 - 9225</p>
                         </Rounded>
                 </div>
                 <div className={styles.info}>
                     <div>
                         <span>
                             <h3>Version</h3>
-                            <p>2022 © Edition</p>
+                            <p>2024 © Edition</p>
                         </span>
                         <span>
-                            <h3>Version</h3>
-                            <p>11:49 PM GMT+2</p>
+                            <h3>Time</h3>
+                            <p>11:49 PM GMT-8</p>
                         </span>
                     </div>
                     <div>
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <p>Awwwards</p>
+                                <p>Crunchyroll</p>
                             </Magnetic>
                         </span>
                         <Magnetic>
                             <p>Instagram</p>
                         </Magnetic>
                         <Magnetic>
-                            <p>Dribbble</p>
+                            <p>Dev.to</p>
                         </Magnetic>
                         <Magnetic>
                             <p>Linkedin</p>

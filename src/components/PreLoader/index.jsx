@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client';
 import styles from './style.module.scss';
 import { useEffect, useState } from 'react';
@@ -6,7 +7,7 @@ import { opacity, slideUp } from './anim';
 
 const words = ["Summoning Sorcery... Loading your Jujutsu adventure!", "召喚魔術... 呪術の冒険をロード中!", "Traveling to Jujustu High!", "ジュジュツ高校へ旅行中"]
 
-export default function Index() {
+export default function index() {
     const [index, setIndex] = useState(0);
     const [dimension, setDimension] = useState({width: 0, height:0});
 

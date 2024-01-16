@@ -2,7 +2,7 @@
 import styles from './page.module.css'
 import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
-import Preloader from '../components/Preloader';
+import Preloader from '../components/PreLoader';
 import Landing from '../components/Landing';
 import Projects from '../components/Projects';
 import Description from '../components/Description';

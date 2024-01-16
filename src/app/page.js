@@ -1,10 +1,13 @@
 'use client';
 import styles from './page.module.css'
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
 import Preloader from '../components/Preloader';
 import Landing from '../components/Landing';
-
+import Projects from '../components/Projects';
+import Description from '../components/Description';
+import SlidingImages from '../components/SlidingImages';
+import Contact from '../components/Contact';
 
 export default function Home() {
 
@@ -20,7 +23,7 @@ export default function Home() {
             setIsLoading(false);
             document.body.style.cursor = 'default'
             window.scrollTo(0,0);
-          }, 4000)
+          }, 2000)
       }
     )()
   }, [])
@@ -31,6 +34,10 @@ export default function Home() {
         {isLoading && <Preloader />}
       </AnimatePresence>
       <Landing />
+      <Description />
+      <Projects />
+      <SlidingImages />
+      <Contact />
     </main>
   )
 }

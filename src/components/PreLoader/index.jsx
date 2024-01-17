@@ -19,7 +19,7 @@ export default function index() {
         if(index == words.length - 1) return;
         setTimeout( () => {
             setIndex(index + 1)
-        }, index == 0 ? 1000 : 1200)
+        }, index == 0 ? 900 : 500)
     }, [index])
 
     const initialPath = `M0 0 L${dimension.width} 0 L${dimension.width} ${dimension.height} Q${dimension.width/2} ${dimension.height + 300} 0 ${dimension.height}  L0 0`

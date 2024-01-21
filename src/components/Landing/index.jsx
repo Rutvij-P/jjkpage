@@ -6,6 +6,9 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import { slideUp } from './animation';
 import { motion } from 'framer-motion';
+import localFont from 'next/font/local'
+
+const myFont = localFont({ src: '../../../public/fonts/JujutsuKaisen.ttf' })
 
 export default function Home() {
 

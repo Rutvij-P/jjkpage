@@ -19,7 +19,7 @@ export default function index() {
                     })
                 }
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>Jujutsu Kaisen, a dark fantasy and action anime, brought to life by the acclaimed studio MAPPA.</motion.p>
+                <motion.p variants={opacity} animate={isInView ? "open" : "closed"} className='studioDescript'>Jujutsu Kaisen, a dark fantasy and action anime, brought to life by the acclaimed studio MAPPA.</motion.p>
                 <div data-scroll data-scroll-speed={0.1}>
                     <Rounded className={styles.button}>
                         <p>More by MAPPA</p>

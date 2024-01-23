@@ -14,7 +14,7 @@ const navItems = [
   },
   {
     title: "Description",
-    href: "/description",
+    href: "/Description",
   },
   {
     title: "Episodes",
